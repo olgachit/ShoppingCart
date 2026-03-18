@@ -57,11 +57,14 @@ public class ShoppingCart {
             System.out.println(rb.getString("prompt.quantity").replace("{0}", ordinal));
             int quantity = scanner.nextInt();
 
-            double itemTotal = price * quantity;
+            double itemTotal = calculateItemTotal(price, quantity);
             System.out.println(rb.getString("total.items")+" "+itemTotal);
             total += itemTotal;
         }
 
         System.out.println(rb.getString("total.cart") + " " + total);
+    }
+    public static double calculateItemTotal(double price, int quantity) {
+        return price * quantity;
     }
 }
