@@ -1,6 +1,11 @@
 pipeline {
     agent any
+    tools {
+        jdk 'JDK 21'
+        maven 'Maven 3.9.12'
+    }
     environment {
+        PATH = "/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/opt/openjdk@21/bin:/opt/homebrew/opt/maven/bin:/usr/bin:/bin:/usr/sbin:/sbin"
         // Define Docker Hub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'docker_hub'
         // Define Docker Hub repository name
