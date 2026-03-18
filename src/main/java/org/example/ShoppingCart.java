@@ -1,6 +1,5 @@
 package org.example;
 
-import java.text.MessageFormat;
 import java.util.*;
 
 public class ShoppingCart {
