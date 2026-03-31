@@ -23,7 +23,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(root, 500, 600);
 
-        primaryStage.setTitle("Shopping Cart");
+        primaryStage.setTitle("Olga Chitembo/Shopping Cart");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
