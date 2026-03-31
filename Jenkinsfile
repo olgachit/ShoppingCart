@@ -9,7 +9,7 @@ pipeline {
         // Define Docker Hub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'docker_hub'
         // Define Docker Hub repository name
-        DOCKERHUB_REPO = 'olgachi/sep2_week1_inclass_assignment'
+        DOCKERHUB_REPO = 'olgachi/sep2_week2_inclass_assignment'
         // Define Docker image tag
         DOCKER_IMAGE_TAG = 'latest'
     }
