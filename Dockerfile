@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 maven:3.9.6-eclipse-temurin-21 AS build
+FROM --platform=linux/arm64/v8 maven:3.9.6-eclipse-temurin-21 AS build
 
 ENV DISPLAY=host.docker.internal:0.0
 
